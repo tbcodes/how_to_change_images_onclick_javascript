@@ -1,0 +1,54 @@
+/* Youtube Link: https://www.youtube.com/watch?v=i7bW41JTL8U */
+/* Created by Truzz Blogg */
+/* https://www.youtube.com/c/TruzzBlogg/videos */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+ div.container h3 {
+    color: #444;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.color-select {
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(242, 255, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.color-select div {
+    background: rgb(6, 147, 207);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 30px;
+    cursor: pointer;    
+}
+
+.color-select #red {
+    background: rgb(207, 6, 23);
+}
+
+.color-select #blue {
+    background: rgb(6, 147, 207);
+}
+
+.color-select #black {
+    background: #333;
+} 
